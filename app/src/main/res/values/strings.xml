@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ExampleNavigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_title">FIRST FRAGMENT</string>
+    <string name="second_activity_title">SECOND-ACTIVITY</string>
+    <string name="navigation_to_first_fragment">FirstFragment</string>
+    <string name="third_fragment_title">THIRD - FRAGMENT</string>
+    <string name="navigation_to_second_activity">SecondAcivity</string>
+    <string name="navigation_to_third_fragment">Third Fragment</string>
 </resources>

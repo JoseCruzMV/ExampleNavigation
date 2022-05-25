@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/josec/AndroidStudioProjects/ExampleNavigation/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/josec/AndroidStudioProjects/ExampleNavigation/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Users/josec/AndroidStudioProjects/ExampleNavigation/app/src/main/res/layout/navigation_first.xml" value="0.18" />
+        <entry key="..\:/Users/josec/AndroidStudioProjects/ExampleNavigation/app/src/main/res/layout/navigation_second_activity.xml" value="0.15" />
+        <entry key="..\:/Users/josec/AndroidStudioProjects/ExampleNavigation/app/src/main/res/layout/navigation_second_fragment.xml" value="0.1" />
       </map>
     </option>
   </component>

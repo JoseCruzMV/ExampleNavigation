@@ -5,20 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.examplenavigation.R
 import com.example.examplenavigation.databinding.NavigationThirdFragmentBinding
 
-class NavigationThirdFragment : Fragment() {
+class NavigationThirdFragment : Fragment(R.layout.navigation_third_fragment) {
     private lateinit var binding: NavigationThirdFragmentBinding
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
-
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? = NavigationThirdFragmentBinding.inflate(inflater, container, false)
-        .apply { binding = this }
-        .root
 }

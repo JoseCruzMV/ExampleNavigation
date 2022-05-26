@@ -6,8 +6,10 @@
     <string name="second_activity_title">SECOND-ACTIVITY</string>
     <string name="navigation_to_first_fragment">FirstFragment</string>
     <string name="third_fragment_title">THIRD - FRAGMENT</string>
-    <string name="navigation_to_second_activity">SecondAcivity</string>
+    <string name="navigation_to_second_activity">Second Activity</string>
     <string name="navigation_to_third_fragment">Third Fragment</string>
     <string name="button_to_activity">To Activity</string>
     <string name="button_to_fragment">To Fragment</string>
+    <string name="first_fragment_title">First</string>
+    <string name="third_title" >Third</string>
 </resources>

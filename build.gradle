@@ -4,7 +4,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath("androidx.navigation:navigation-safe-args-gradle-plugin:2.4.2")
+        classpath("androidx.navigation:navigation-safe-args-gradle-plugin:2.3.5")
     }
 }
 plugins {
@@ -18,5 +18,5 @@ task clean(type: Delete) {
 }
 
 ext {
-    nav_version= "2.4.2"
+    nav_version= "2.3.5"
 }

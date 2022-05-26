@@ -3,25 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/toFirstFragment">
+    app:startDestination="@id/ToFirstFragment">
 
     <fragment
-        android:id="@+id/toFirstFragment"
+        android:id="@+id/ToFirstFragment"
         android:name="com.example.examplenavigation.ui.view.NavigationFirstFragment"
         android:label="@string/navigation_to_first_fragment" >
         <action
             android:id="@+id/fromFirstToSecond"
-            app:destination="@id/toSecondActivity" />
+            app:destination="@id/ToSecondActivity" />
         <action
             android:id="@+id/fromFirstToThird"
-            app:destination="@id/toThirdFragment" />
+            app:destination="@id/ToThirdFragment" />
     </fragment>
     <activity
-        android:id="@+id/toSecondActivity"
+        android:id="@+id/ToSecondActivity"
         android:name="com.example.examplenavigation.ui.view.NavigationSecondActivity"
         android:label="@string/navigation_to_second_activity" />
     <fragment
-        android:id="@+id/toThirdFragment"
+        android:id="@+id/ToThirdFragment"
         android:name="com.example.examplenavigation.ui.view.NavigationThirdFragment"
         android:label="@string/navigation_to_third_fragment" />
 </navigation>

@@ -24,6 +24,7 @@
         </activity>
         <activity
             android:name=".ui.view.NavigationSecondActivity"
+            android:parentActivityName=".MainActivity"
             android:exported="true" />
     </application>
 

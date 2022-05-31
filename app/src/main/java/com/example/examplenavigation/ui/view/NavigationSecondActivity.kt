@@ -13,6 +13,10 @@ class NavigationSecondActivity : AppCompatActivity() {
         binding = NavigationSecondActivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        setSupportActionBar(binding.toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayShowHomeEnabled(true)
+
         binding.toolbar.title = "Second"
     }
 }
